@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    width: 1152px;
+    margin: auto
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Slab&family=Spline+Sans&display=swap');
+.maindiv-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(72, 84, 105);
+   margin-top: 30px;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: black;
+}
+.maindiv-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 65%;
+  
+    margin-top: 35px;
+}
+.grid-box{
+    display: grid;
+ grid-template-columns: 300px auto;
+}
+
+.img-box{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    padding: 15px;
+    margin-left: 40px;
+}
+
+
+.paragraph{
+ text-align: center;
+margin-top: 150px;
+}
+.paragraph-1{
+margin: 50px ;
+
+}
+.paul{
+    margin: 50px;
+}
+.maindiv-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv-5{
+    display: flex;
+ 
+    align-items: center;
+}
+.dot-image{
+    margin-top: 18px;
+    margin: 50px;
+}
+ .maindiv-4{
+     margin-bottom: 50px;
+ }
+ .maindiv-2{
+     display: grid;
+     grid-template-columns: repeat(3,308px);
+     grid-gap: 110px;
+     grid-row-gap: 25px;
+
+ }
+ .mainbox-1{
+     
+     text-align: center;
+    
+     border: 2px solid rgb(68, 61, 61);
+     padding: 10px;
+
+ }
+ .imgdiv{
+     margin-top: 50px;
+     margin-bottom: 40px;
+ }
+ .para{
+     margin-top:25px;
+    margin-bottom: 44px;
+ }
+ .maindiv-column{
+     display: grid;
+     grid-template-columns: 360px auto auto auto auto;
+     grid-gap: 50px;
+ }
+ .column{
+     margin-bottom: 25px;
+ }
+ .img-margin{
+     display: flex;
+    
+ }
+ .margin-1{
+     margin-right: 15px;
+ }
+ 
